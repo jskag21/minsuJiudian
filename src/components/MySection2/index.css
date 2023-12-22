@@ -1,0 +1,50 @@
+.section2{
+    width: 80vw;
+    /* height: 90vh;
+    overflow: hidden; */
+    margin: auto;    
+    padding: 0;
+}
+.section2Title{
+    font-size: 30px;
+    font-weight: 600;
+    color: #555;
+    line-height: 6rem;
+    text-align: center;
+    font-family:  YaHei,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.myCol{
+    height: 300px;
+    border: 0.5px solid white;
+}
+.myCol:hover{
+   
+}
+.section2Content{
+    display: grid;
+    grid-template: "span span span"  ;
+    row-gap: 5px;
+    column-gap: 6px;
+}
+.section2Content img{
+    height: 250px;
+    width: 500px;   
+    filter: brightness(0.9);
+}
+.section2Content img:hover{
+    /* transform: scale(1.01);
+    box-shadow: rgba(39, 39, 41, 0.2) 0px 7px 29px 0px; */
+}
+/* .section2Content table{
+
+    width: 100%;
+    
+}
+.section2Content table td{
+    height: 13rem;
+    border: 1px solid black;
+}
+
+.section2Content table td img{
+    
+} */

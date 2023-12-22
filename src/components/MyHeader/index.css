@@ -1,0 +1,48 @@
+
+.myHeader{
+    font-family: var(--myFontFamily);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+    font-size:1.5rem;
+    color:white;
+    /* background: rgba(0,0,0,0.8); */
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1030;
+    height: 56px;
+    background: rgba(0,0,0,.5) !important;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.myHeader nav ul{
+    list-style-type: none;
+    font-size: 1.2rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+    /* line-height: 1.3rem; */
+   
+    
+
+}
+.myHeader nav li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.1rem;
+}
+.myHeader nav ul:hover{
+    cursor: pointer;
+}
+.underLine{
+    height: .16rem;
+    width: 85%;
+    background-color: white;
+    border-radius: 10px;
+}
