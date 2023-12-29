@@ -35,7 +35,7 @@ export default function Mysection1() {
         return (
             <div className='aService'>
                 <i><img src={props.item.src} /></i>
-                <div>
+                <div className='servicesDes'>
                     <h4>{props.item.title}</h4>
                     <p>{props.item.text}</p>
                 </div>

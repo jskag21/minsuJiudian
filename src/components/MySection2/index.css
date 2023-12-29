@@ -1,16 +1,18 @@
 .section2{
-    width: 80vw;
-    /* height: 90vh;
-    overflow: hidden; */
-    margin: auto;    
-    padding: 0;
+   width: 80vw;
+   margin: 25px auto;
+    /* position: relative;
+    left: 50%;
+    margin-left: -45vw;
+    padding: 0; */
 }
 .section2Title{
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 600;
     color: #555;
     line-height: 6rem;
     text-align: center;
+    /* margin-left: 350px; */
     font-family:  YaHei,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 .myCol{
@@ -21,19 +23,26 @@
    
 }
 .section2Content{
-    display: grid;
-    grid-template: "span span span"  ;
-    row-gap: 5px;
-    column-gap: 6px;
+    width: 100%;
+    display: flex; 
+    flex-flow: row wrap;
+    justify-content: space-between;
+   
+    /* row-gap: 5px;
+    column-gap: 6px; */
 }
 .section2Content img{
-    height: 250px;
-    width: 500px;   
-    filter: brightness(0.9);
+    height:min(200px,40vw);
+    width:80vw;
+    filter: brightness(0.8);
+    transition: all 0.2s ease-out;
+}
+.section2Content img{
+    
 }
 .section2Content img:hover{
-    /* transform: scale(1.01);
-    box-shadow: rgba(39, 39, 41, 0.2) 0px 7px 29px 0px; */
+    transform: scale(1.03);
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 /* .section2Content table{
 
@@ -48,3 +57,7 @@
 .section2Content table td img{
     
 } */
+
+.myCard{
+    margin:1%;
+}

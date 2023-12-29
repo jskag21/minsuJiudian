@@ -1,68 +1,101 @@
 .section3{    
-   width: 80vw;
+   width: 80vw;  
    position: relative;
-   left: 50%;
-   margin-left: -40vw;
+   /* left:-50px; */
+   margin:3% auto;
    color: white;
    
 }
 .sections{
     position: absolute;
     top:0;
-    margin: 5% 10%;
+    margin: 7% 4% 7% 5%;
     /* top:20%; */
     /* margin-top: -40vh; */
 }
 .innerSection{
     display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    gap:4rem;
     /* justify-content:space-evenly; */
    
 }
-.section3 img{
+.section3BackImg{
     filter:blur(2px) brightness(0.8);
     width: 100%;
-    height: 800px;
-    /* position: relative;
-    left:50%;
-    margin-left: -40%; */
-}
-
-.sec3Description{
-    /* height: 80vh; */
-   
-    /* margin-top:-30%; */
+    height: calc(278px + 37rem );
+    margin: auto;
     
+}
+.part1{
+    
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    gap:2rem;
+ }
+.description p{
+    text-align: justify;
+    text-indent: 1.5rem;
+    /* line-height: 2rem; */
+    letter-spacing: 1px;
 }
 .part1, .part2{
  
 }
-.part1{
-   padding-top:3em;
+.description, .contactUs{
+    display: flex;
+    flex-flow: column nowrap;
+    gap:1rem;
+}
+.part1 h1{    
+    font-size: 1.7rem;  
+    font-weight: 600;
+}
+.contactUs{
+    color:#ffd675;
+   
+}
+.contactUs h1{
+
+}
+.contactUs p{
+    height: 56px;
+    line-height: 50px;
+    padding-left: 48px;
+    background-image: url('../../assets/icons/phone.png');
+    background-repeat: no-repeat;   
+    background-size:38px ;
+    background-position: 0 8px;
+    /* line-height: 56px; */
+    font-weight: 600;
+    font-size: 1.7rem;
 }
 
+
 .part2{
+   
     color: rgba(0,0,0,0.8);
     background-color: white;
     display: flex;
     flex-flow: column nowrap;
-    justify-content: space-evenly;
+    justify-content:space-between;
     align-items: center;
-    height: 50vh;
-    width: 60%;
+    gap:1rem;
+    height: 30rem;
+    /* width: 40%; */
+    padding: 5% 6%;
     border-radius: 10px;
-
+    /* transform: scale(0.8); */
     
-}
-.part1 h1{
-    
-    font-size: 2rem;  
-    font-weight: 600;
 }
 
 .part2 h1{
-   
+   font-size: 1.5rem;
 }
 .part2 form{
+    flex-grow: 1;
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-between;
@@ -71,14 +104,15 @@
 }
 .contactButton{
     display: block;
-    width: 100%;
+    min-width: 10vw;
     margin-top: 9%;
   
     cursor: pointer;
     text-align: center;
-    line-height: 50px;
+    line-height: 2.56rem;
     color: #fff;
-    font-size: 19px;
+    font-size: 1rem;
+    padding: 0 12px;
     border-radius: 50px;
     border: none;
     background-color: rgba(7, 7, 94,.9);
@@ -86,26 +120,33 @@
    
 }
 .inputWrapper{
-    /* width: 100%;    
-    border-bottom: 1px solid #d8d8d8;
-    height: auto;
-    padding-top: 40px;
-    /* padding-left: 72px; */
-    /* line-height: 2rem;
-    display: flex;
-    gap: 10px;
-    box-sizing: border-box;  */
-    display: flex;
-    width: 100%;
+    
+    display: flex;   
+    gap:1.2rem;
+    width: 120%;
+    padding-top:2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+    font-size: 0.9rem;
+    transform: scale(.8);
+    /* border:1px solid red; */
+ 
+}
+.inputWrapper label{
+    /* border:1px solid red; */
+    font-weight: 400;
+   
 }
 .inputWrapper input{
     border: none;
     outline: none;
+   
+    /* border:1px solid red; */
     
 }
 .inputWrapper input:hover{
    
 }
 .inputWrapper input:focus{
-    border-bottom: 0.5px solid blue;
+    /* border-bottom: 0.5px solid blue; */
 }

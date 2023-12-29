@@ -1,0 +1,63 @@
+.myFooter{
+    color: #fff;
+    margin-top: 15px;
+    padding: 20px 0;
+    background-color: #333;
+
+    display: flex;
+    flex-flow: column nowrap;
+    gap:50px;
+   
+}
+
+.footerInfo{
+    display: flex;
+    justify-content: space-between;   
+    margin: 0 2%;
+}
+.footerInfo div{
+    
+}
+.qrCodeWrapper{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap:5px;
+}
+.qrCode{
+    border: 1px solid #eee;
+    width: 20px;
+}
+.qrCodeWrapper span{
+    font-weight: 100;
+   
+    color: gray;
+}
+
+.footerContact{
+    display: flex;
+    flex-flow: column nowrap;   
+    gap:5px;
+
+    font-weight: bold;
+}
+.footerContact span{
+    color: gray;
+    font-weight: 300;
+}
+
+.certificates{
+    margin: auto;
+    padding: 0 1%;
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+.myFooter a{
+    text-decoration: none;
+    color: #eee;
+
+}
+.myFooter a:hover{
+    color: lightblue;
+}

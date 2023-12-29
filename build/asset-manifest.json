@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.07af6567.css",
+    "main.js": "/static/js/main.4094342d.js",
+    "static/js/787.7ee84ffe.chunk.js": "/static/js/787.7ee84ffe.chunk.js",
+    "static/media/house01.jpg": "/static/media/house01.3c32a67a27437c5915d6.jpg",
+    "static/media/section1Image.jpg": "/static/media/section1Image.3761f36118930e64e2b6.jpg",
+    "static/media/huanjing5.jpg": "/static/media/huanjing5.2a8b0b53091a6cb4ea9b.jpg",
+    "static/media/huanjing3.jpg": "/static/media/huanjing3.3fb451f9b2d0d389e58f.jpg",
+    "static/media/huanjing4.jpg": "/static/media/huanjing4.741dc7005266926c7b6b.jpg",
+    "static/media/huanjing6.jpg": "/static/media/huanjing6.1dc80aa22408eab22074.jpg",
+    "static/media/huanjing1.jpg": "/static/media/huanjing1.758b537baccda7345ec5.jpg",
+    "static/media/house03.jpg": "/static/media/house03.9b94c4e9b0835c5debf9.jpg",
+    "static/media/huanjing2.jpg": "/static/media/huanjing2.107d39fd3da418f888bb.jpg",
+    "static/media/house04.jpg": "/static/media/house04.a7fa5897a22c95b5b0c5.jpg",
+    "static/media/house02.jpg": "/static/media/house02.602861c2f749b0c06be5.jpg",
+    "static/media/room.jpg": "/static/media/room.188c45b7a21198e55c62.jpg",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.07af6567.css.map": "/static/css/main.07af6567.css.map",
+    "main.4094342d.js.map": "/static/js/main.4094342d.js.map",
+    "787.7ee84ffe.chunk.js.map": "/static/js/787.7ee84ffe.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.07af6567.css",
+    "static/js/main.4094342d.js"
+  ]
+}

@@ -18,7 +18,7 @@ export default function Mysection2() {
 function MyCard(props){
    
         return(        
-                 <img src={props.src}   /> 
+                <img src={props.src} loading="lazy"  /> 
                 )
     }
 

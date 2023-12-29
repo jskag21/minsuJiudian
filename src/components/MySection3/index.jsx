@@ -35,14 +35,19 @@ function MyInput(props){
 
   return (
     <div className='section3'>
-        <img src={require('../../assets/images/room.jpg')}/>
+        <img className='section3BackImg' src={require('../../assets/images/room.jpg')}/>
         <div className='sections'>
             <div className='innerSection'>
                 <section className='part1'>
                     
-                    <div className='sec3Description'>
+                    <div className='description'>
                         <h1>加盟咨询</h1>
                         <p> 如想了解更多酒店加盟信息（加盟政策，回报投资率等），可拨打加盟热线或留下联系方式，将会有专属加盟顾问为您解答               </p>
+                    </div>
+
+                    <div className='contactUs'>
+                        <h1>加盟热线</h1>
+                        <p>187-212-42641</p>
                     </div>
                 </section>
 

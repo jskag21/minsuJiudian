@@ -3,16 +3,17 @@
     font-family: var(--myFontFamily);
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 900;
-    font-size:1.5rem;
+    font-size:2vh;
     color:white;
     /* background: rgba(0,0,0,0.8); */
 
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
     z-index: 1030;
-    height: 56px;
+    height: 8vh;
+    width: 1005;
     background: rgba(0,0,0,.5) !important;
 
     display: flex;
@@ -20,7 +21,9 @@
     align-items: center;
 
 }
-
+.myHeader nav {
+    display: none;
+}
 .myHeader nav ul{
     list-style-type: none;
     font-size: 1.2rem;
